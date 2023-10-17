@@ -1,11 +1,11 @@
-# notes for currency converter app
+# Notes for currency converter app
 
-### api link
+### Api Link
 ```
 let url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`
 ```
 
-### input box
+### Input box
 ```
 function InputBox({
     label,
@@ -47,7 +47,7 @@ function InputBox({
 export default InputBox;
 ```
 
-### app.js
+### App.js
 ```
 function App() {
     
